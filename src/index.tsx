@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import Counter from './components/Counter';
+import TodoList from './components/TodoList';
 
 ReactDOM.render(
-  <Counter name="React" />,
+  <TodoList />,
   document.getElementById('app')
 );
